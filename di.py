@@ -6,5 +6,5 @@ for i in range (100000):
   m_pangkat_e = (i*n+c)
   m, akar_e = gmpy2.iroot(m_pangkat_e,e)
   if akar_e:
-  print("Flag : {}".format(bytearray.fromhex(format(m,"x")).decode())):
+  print("Flag : {}".format(bytearray.fromhex(format(m,"x")).decode()))
   break:
